@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  server:
+    container_name: chat-server
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+      args:
+        ENV_PATH: "config-dev.toml"
+    volumes:
+      - .:/app
+    ports:
+      - "9090:9090"
+    command: [ "air" ]
+    environment:
+      GO_ENV: 'dev'

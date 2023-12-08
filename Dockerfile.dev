@@ -1,0 +1,18 @@
+FROM golang:1.21rc2 AS builder
+
+WORKDIR /app
+COPY go.mod /app
+COPY go.sum /app
+
+RUN go mod download
+
+COPY . .
+RUN make build
+
+FROM alpine:3.7 AS runner
+WORKDIR /app
+
+COPY --from=builder /app/scd ./scd
+COPY --from=builder /app/config-dev.toml ./config.toml
+ENV TZ Asia/Seoul
+CMD ["./scd"]
