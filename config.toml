@@ -1,0 +1,17 @@
+[context]
+timeout = 2
+
+[aws]
+accessKeyID = "YOUR_ACCESS_KEY"
+secretKey = "YOUR_SECRET_KEY"
+region = "ap-northeast-2"
+
+[aws.dynamoDB.Room]
+tableName = "room-dev"
+readCapacityUnits = 1
+writeCapacityUnits = 1
+
+[aws.dynamoDB.Chat]
+tableName = "chat-dev"
+readCapacityUnits = 1
+writeCapacityUnits = 1
