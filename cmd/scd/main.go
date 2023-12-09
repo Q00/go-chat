@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/GoodOnuii-B/seoltab-chat/config"
-	"github.com/GoodOnuii-B/seoltab-chat/graphql"
-	"github.com/GoodOnuii-B/seoltab-chat/graphql/docs"
+	"github.com/Q00/go-chat/config"
+	"github.com/Q00/go-chat/graphql"
+	"github.com/Q00/go-chat/graphql/docs"
 	graphqlGo "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/graph-gophers/graphql-transport-ws/graphqlws"

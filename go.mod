@@ -1,4 +1,4 @@
-module github.com/GoodOnuii-B/seoltab-chat
+module github.com/Q00/go-chat
 
 go 1.21.1
 

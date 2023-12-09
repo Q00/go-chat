@@ -2,8 +2,8 @@ package chat
 
 import (
 	"fmt"
-	"github.com/GoodOnuii-B/seoltab-chat/internal/dto"
-	"github.com/GoodOnuii-B/seoltab-chat/util"
+	"github.com/Q00/go-chat/internal/dto"
+	"github.com/Q00/go-chat/util"
 	"sync"
 	"time"
 )

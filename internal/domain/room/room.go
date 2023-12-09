@@ -1,10 +1,10 @@
 package room
 
 import (
-	"github.com/GoodOnuii-B/seoltab-chat/config"
-	"github.com/GoodOnuii-B/seoltab-chat/internal/dto"
-	"github.com/GoodOnuii-B/seoltab-chat/tool/dynamo"
-	"github.com/GoodOnuii-B/seoltab-chat/util"
+	"github.com/Q00/go-chat/config"
+	"github.com/Q00/go-chat/internal/dto"
+	"github.com/Q00/go-chat/tool/dynamo"
+	"github.com/Q00/go-chat/util"
 )
 
 type Service struct {

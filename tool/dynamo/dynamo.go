@@ -2,7 +2,7 @@ package dynamo
 
 import (
 	"fmt"
-	"github.com/GoodOnuii-B/seoltab-chat/config"
+	"github.com/Q00/go-chat/config"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
